@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <title>F1 - Brasil</title>
+</head>
+<body>
+  <style>
+    body {
+      background-image: url('https://viniciusnava.files.wordpress.com/2011/12/mclaren_mp4_4_51.jpg');
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    </style> 
+    <div class="container p-3 my-3 bg-danger">
+        <H1>F1 - Brasil 
+            <br style="color: rgb(172, 31, 31);">
+        </H1>
+        <h2>
+            Insira o sobrenome do piloto para um perfil completo de vitórias!!
+        </h2>
+        <br>
+        <form method="POST" action="/winners">
+            <input type="text" id= "Driver" name="Driver" placeholder="Piloto" class="form-control">
+            <button type="submit" class="btn btn-warning">Enviar</button>
+        </form>
+    </div>
+
+    <div class="container">
+     
+      <h2 class="bg-success text-warning">Pilotos Brasileiros vencedores na F1</h2>
+      
+            <table class="table table-hover responsive-sm">
+                <thead >
+                  
+                  <tr class="bg-danger text-dark">
+                    <th scope="col" style="width: 30%;">Nome</th>
+                    <th scope="col" style="width: 30%;">Sobrenome</th>
+                    <th scope="col" style="width: 20%;">Vitorias</th>
+                    <th scope="col" style="width: 20%;">Poles</th>
+                  
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="bg-secondary text-white">
+                    <td>Ayrton</td>
+                    <td>Senna</td>
+                    <td>42</td>
+                    <td>65</td>
+                    
+                  </tr>
+                  <br>
+                  <tr class="bg-secondary text-white">
+                    <td>Nelson</td>
+                    <td>Piquet</td>
+                    <td>23</td>
+                    <td>24</td>
+                  </tr>
+                  <br>
+                  <tr class="bg-secondary text-white">
+                    <td>Emerson</td>
+                    <td>Fittipaldi</td>
+                    <td>14</td>
+                    <td>6</td>
+                  </tr>
+                  <br>
+                  <tr class="bg-secondary text-white">
+                    <td>Felipe</td>
+                    <td>Massa</td>
+                    <td>11</td>
+                    <td>16</td>
+                  </tr>
+                  <br>
+                  <tr class="bg-secondary text-white">
+                    <td>Rubens</td>
+                    <td>Barrichello</td>
+                    <td>11</td>
+                    <td>14</td>
+                  </tr>
+                  <br>
+                  <tr class="bg-secondary text-white">
+                    <td>Jose Carlos</td>
+                    <td>Pace</td>
+                    <td>1</td>
+                    <td>1</td>
+                  </tr>
+                </tbody>
+              </table>
+          
+  
+        
+
+    </div>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+</html>
